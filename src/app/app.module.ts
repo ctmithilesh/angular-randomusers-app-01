@@ -7,13 +7,15 @@ import { RandomUsersComponent } from './Components/random-users/random-users.com
 import { HelloComponent } from './Components/hello/hello.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './Components/about/about.component';
+import { FakeTodosComponent } from './Components/fake-todos/fake-todos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RandomUsersComponent,
     HelloComponent,
-    AboutComponent
+    AboutComponent,
+    FakeTodosComponent
   ],
   imports: [
     BrowserModule,
