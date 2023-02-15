@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HelloComponent implements OnInit {
 
+    country: String = 'Australia'
+    fruits: Array<String> = [
+      'Banana',
+      'Chikoo',
+      'Grapes',
+      'Mango'
+    ]
   constructor() { }
 
   ngOnInit(): void {

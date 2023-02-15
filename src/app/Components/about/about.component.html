@@ -1,0 +1,12 @@
+<div>
+    <h1> Hello Works </h1>
+    <p> Welcome to About!</p>
+    <div>
+        <ol>
+            <li *ngFor="let item of countries; let i = index" [attr.data-index]="i">
+                {{item}}
+            </li>
+         </ol>
+    </div>
+   
+</div>  
