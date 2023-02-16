@@ -8,6 +8,7 @@ import { HelloComponent } from './Components/hello/hello.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './Components/about/about.component';
 import { FakeTodosComponent } from './Components/fake-todos/fake-todos.component';
+import { UserDashboardComponent } from './Components/user-dashboard/user-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FakeTodosComponent } from './Components/fake-todos/fake-todos.component
     RandomUsersComponent,
     HelloComponent,
     AboutComponent,
-    FakeTodosComponent
+    FakeTodosComponent,
+    UserDashboardComponent
   ],
   imports: [
     BrowserModule,
