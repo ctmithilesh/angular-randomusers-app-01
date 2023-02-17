@@ -9,6 +9,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './Components/about/about.component';
 import { FakeTodosComponent } from './Components/fake-todos/fake-todos.component';
 import { UserDashboardComponent } from './Components/user-dashboard/user-dashboard.component';
+import { ContactFormComponent } from './Components/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UserDashboardComponent } from './Components/user-dashboard/user-dashboa
     HelloComponent,
     AboutComponent,
     FakeTodosComponent,
-    UserDashboardComponent
+    UserDashboardComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
