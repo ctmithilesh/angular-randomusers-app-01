@@ -10,6 +10,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { FakeTodosComponent } from './Components/fake-todos/fake-todos.component';
 import { UserDashboardComponent } from './Components/user-dashboard/user-dashboard.component';
 import { ContactFormComponent } from './Components/contact-form/contact-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,9 @@ import { ContactFormComponent } from './Components/contact-form/contact-form.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
